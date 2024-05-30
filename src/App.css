@@ -1,5 +1,21 @@
 .App {
-  background: #47af5b;
+  background: #026314;
   width: 100%;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.App::before {
+  content: "";
+  background-image: url(./asset/image/full-shot-woman-stretching-outdoors.jpg);
+  position: absolute;
+  top: -49px;
+  left: 0;
+  right: -336px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  opacity: 0.35;
 }

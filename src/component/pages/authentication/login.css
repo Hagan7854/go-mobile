@@ -16,3 +16,31 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.header {
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 102px;
+  height: 41px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 0.5rem;
+}
+
+.nav-text p {
+  position: relative;
+  margin-top: -11px;
+}
+
+.icon img {
+  width: 18.57px;
+  height: 20.3px;
+}

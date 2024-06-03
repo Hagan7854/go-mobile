@@ -1,4 +1,25 @@
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/full-shot-woman-stretching-outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #47af5b;
+  mix-blend-mode: multiply;
+}
+
 .header {
+  position: relative;
   display: flex;
   padding-right: 30px;
   justify-content: flex-end;
@@ -31,6 +52,7 @@ nav a {
 }
 
 .col-1 img {
+  position: relative;
   width: 390px;
   height: 370px;
   border-radius: 49px;
@@ -38,12 +60,14 @@ nav a {
 }
 
 .col-2 img {
+  position: relative;
   width: 392px;
   height: 177px;
   object-fit: fill;
 }
 
 h1 {
+  position: relative;
   margin-top: -19px;
   font-family: "Arial";
   font-style: italic;
@@ -55,6 +79,7 @@ h1 {
 }
 
 p {
+  position: relative;
   margin-top: -40px;
   font-family: "Arial";
   font-style: normal;

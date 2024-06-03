@@ -6,7 +6,7 @@ import appStoreImage from "./images/APPLE SOTR.png";
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className="landing-page">
       <div className="header">
         <nav>
           <a href="#app">The app</a>

@@ -1,6 +1,8 @@
 import logo from "./image/logo.png";
 import padlock from "./image/padlock.svg";
 import menuIcon from "./image/menu.svg";
+import usernameIcon from "./image/username.svg";
+import passwordIcon from "./image/password.svg";
 import "./login.css";
 
 export default function Login() {
@@ -21,6 +23,25 @@ export default function Login() {
             <img src={menuIcon} alt="" />
           </div>
         </div>
+      </div>
+      <div className="body">
+        <div className="welcome-text">
+          <h2>Welcome</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis.
+          </p>
+        </div>
+        <form>
+          <div className="name-wrapper">
+            <input type="text" placeholder="Email or Username" />
+            <img src={usernameIcon} alt="" />
+          </div>
+          <div className="password-wrapper">
+            <input type="text" placeholder="Password" />
+            <img src={passwordIcon} alt="" />
+          </div>
+        </form>
       </div>
     </div>
   );

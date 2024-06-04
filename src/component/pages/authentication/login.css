@@ -45,8 +45,61 @@
   height: 20.3px;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcome-text h2,
 .welcome-text p {
   position: relative;
+  text-align: center;
   color: #fff;
+}
+
+.welcome-text h2 {
+  margin: 0;
+}
+
+.welcome-text p {
+  font-family: "Arial Hebrew Scholar";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 29px;
+  width: 446px;
+  margin-top: 20px;
+}
+
+.name-wrapper {
+  position: relative;
+  width: 388px;
+  height: 48.5px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 388px;
+  height: 48.5px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background: #fff;
+  margin-top: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input {
+  position: relative;
+  outline: none;
+  border: none;
 }

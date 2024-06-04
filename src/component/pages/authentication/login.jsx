@@ -34,12 +34,20 @@ export default function Login() {
         </div>
         <form>
           <div className="name-wrapper">
-            <input type="text" placeholder="Email or Username" />
-            <img src={usernameIcon} alt="" />
+            <div className="input-wrapper">
+              <input type="text" placeholder="Email or Username" />
+            </div>
+            <div className="icon">
+              <img src={usernameIcon} alt="" />
+            </div>
           </div>
           <div className="password-wrapper">
-            <input type="text" placeholder="Password" />
-            <img src={passwordIcon} alt="" />
+            <div className="input-wrapper">
+              <input type="text" placeholder="Password" />
+            </div>
+            <div className="icon">
+              <img src={passwordIcon} alt="" />
+            </div>
           </div>
         </form>
       </div>

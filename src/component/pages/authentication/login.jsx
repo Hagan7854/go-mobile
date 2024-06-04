@@ -49,18 +49,24 @@ export default function Login() {
               <img src={passwordIcon} alt="" />
             </div>
           </div>
-        </form>
-        <div className="row">
-          <div className="col-1">
-            <div className="remember-password">
-              <div className="box"></div>
-              <div className="text">Remember</div>
+          <div className="div-wrapper">
+            <div className="row">
+              <div className="col-1">
+                <div className="remember-password">
+                  <div className="box"></div>
+                  <div className="text">Remember</div>
+                </div>
+              </div>
+              <div className="col-2">
+                <a href="#">Lost Password?</a>
+              </div>
             </div>
           </div>
-          <div className="col-2">
-            <a href="#">Lost Password?</a>
+
+          <div className="button">
+            <button>Log into your account</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

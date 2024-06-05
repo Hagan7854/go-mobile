@@ -168,3 +168,12 @@ button {
   background: linear-gradient(90deg, #2b7d47 0%, #4ee381 100%);
   border-radius: 112px;
 }
+
+.register-btn button {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #2e2b7d 0%, #4e76e3 100%);
+}
+
+.signup {
+  position: relative;
+}

@@ -4,6 +4,7 @@ import menuIcon from "./image/menu.svg";
 import usernameIcon from "./image/username.svg";
 import passwordIcon from "./image/password.svg";
 import "./login.css";
+import Signup from "../signup/signup";
 
 export default function Login() {
   return (
@@ -24,7 +25,11 @@ export default function Login() {
           </div>
         </div>
       </div>
-      <div className="body">
+      <div className="signup">
+        <Signup />
+      </div>
+
+      {/* <div className="body">
         <div className="welcome-text">
           <h2>Welcome</h2>
           <p>
@@ -66,8 +71,11 @@ export default function Login() {
           <div className="button">
             <button>Log into your account</button>
           </div>
+          <div className="button register-btn">
+            <button>Register your account</button>
+          </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }

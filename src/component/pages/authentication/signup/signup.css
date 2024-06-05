@@ -1,0 +1,19 @@
+.signup-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spacing {
+  margin-top: 1rem;
+}
+
+.wrapper {
+  width: 388px;
+  height: 48.5px;
+}

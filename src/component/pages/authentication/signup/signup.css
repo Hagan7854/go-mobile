@@ -34,3 +34,29 @@ input {
 img {
   width: 18px;
 }
+
+.password {
+  margin-right: -2px;
+}
+
+.confirm-password {
+  margin-right: 30px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.label label {
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-right: -1.5rem;
+}

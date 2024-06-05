@@ -9,7 +9,7 @@ export default function Signup() {
         <div className="frame">
           <form>
             <div className="sign-up-input">
-              <div>
+              <div className="label">
                 <label htmlFor="sigUpName">Name</label>
               </div>
               <div className="wrapper">
@@ -23,7 +23,7 @@ export default function Signup() {
               </div>
             </div>
             <div className="sign-up-input spacing">
-              <div>
+              <div className="label">
                 <label htmlFor="sigUpEmail">Email</label>
               </div>
               <div className="wrapper">
@@ -38,33 +38,36 @@ export default function Signup() {
               </div>
             </div>
             <div className="sign-up-input spacing">
-              <div>
+              <div className="label">
                 <label htmlFor="sigUpPassword">Password</label>
               </div>
-              <div className="wrapper">
+              <div className="wrapper password">
                 <input
                   type="password"
                   id="signUpPassword"
                   name="password"
+                  placeholder="●●●●●●●●"
                   required
                 />
                 <img src={passwordIcon} alt="" />
               </div>
             </div>
             <div className="sign-up-input spacing">
-              <div>
+              <div className="label">
                 <label htmlFor="confirmPassword">Confirm Password</label>
               </div>
-              <div className="wrapper">
+              <div className="wrapper confirm-password">
                 <input
                   type="password"
                   id="confirmPassword"
                   name="confirmPassword"
+                  placeholder="●●●●●●●●"
+                  required
                 />
                 <img src={passwordIcon} alt="" />
               </div>
             </div>
-            <div className="signup-button">
+            <div className="signup-button btn">
               <button>Sign Up</button>
             </div>
           </form>

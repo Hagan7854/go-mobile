@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.frame {
+  width: 700px;
+}
+
 .sign-up-input {
   display: flex;
   justify-content: space-around;
@@ -16,4 +20,17 @@
 .wrapper {
   width: 388px;
   height: 48.5px;
+  background: #fff;
+  border-radius: 49px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+img {
+  width: 18px;
 }

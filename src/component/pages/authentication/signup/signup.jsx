@@ -17,7 +17,7 @@ export default function Signup() {
               />
               <img src={person} alt="" />
             </div>
-            <div className="wrapper">
+            <div className="wrapper spacing">
               <input
                 type="email"
                 id="signUpEmail"
@@ -27,7 +27,7 @@ export default function Signup() {
               />
               <img src={person} alt="" />
             </div>
-            <div className="wrapper">
+            <div className="wrapper spacing">
               <input
                 type="password"
                 id="signUpPassword"
@@ -37,7 +37,7 @@ export default function Signup() {
               />
               <img src={passwordIcon} alt="" />
             </div>
-            <div className="wrapper">
+            <div className="wrapper spacing">
               <input
                 type="password"
                 id="confirmPassword"

@@ -1,6 +1,7 @@
 import "./App.css";
 import LandingPage from "./component/landing-page/landing-page";
 import Login from "./component/pages/authentication/login/login";
+import Dashboard from "./component/pages/dashboard/dashboard";
 
 function App() {
   // return (
@@ -9,9 +10,15 @@ function App() {
   //   </div>
   // );
 
+  // return (
+  //   <div className="App">
+  //     <Login />
+  //   </div>
+  // );
+
   return (
     <div className="App">
-      <Login />
+      <Dashboard />
     </div>
   );
 }

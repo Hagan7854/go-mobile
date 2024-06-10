@@ -69,3 +69,9 @@
 .profile-pic img {
   width: 34px;
 }
+
+.sidebar {
+  background: #47af5b;
+  margin: 0;
+  width: 13.66rem;
+}

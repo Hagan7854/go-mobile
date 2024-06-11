@@ -1,7 +1,6 @@
 .dashboard {
   background: #f8f8f8;
   width: 100%;
-  height: 100vh;
 }
 
 .dashboard-header {
@@ -68,32 +67,78 @@
   gap: 10px;
 }
 
-.profile-pic img {
-  width: 34px;
+.profile-wrapper {
+  display: flex;
+  gap: 20px;
 }
+
+.profile-pic img {
+  width: 48px;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+}
+
+/* .frame-2 {
+  margin: 0;
+} */
 
 .sidebar {
   background: #fff;
+  padding-left: 10px;
   padding-top: 10px;
+  padding-right: 10px;
   width: 13.66rem;
   height: 100vh;
   margin: 0;
 }
 
-/* .sidebar-logo {
-  margin-top: 0.5rem;
-} */
+.profile-txt {
+  margin: 0;
+}
 
 .profile-name {
-  color: #47af5b;
+  color: black;
+  font-size: 14px;
   margin: 0;
+}
+
+.sub-profile-name {
+  color: black;
+  font-size: 8px;
+  margin: 0;
+  margin-top: -26px;
+}
+
+.sidebar-items {
+  margin: 0;
+}
+
+.sidebar-items {
+  color: #47af5b;
   font-size: 14px;
 }
 
+.hover .sidebar-items:hover {
+  color: #fff;
+}
+
+/* .sidebar-items a:hover {
+  color: #fff;
+} */
+
 .nav-gap {
+  display: flex;
   gap: 20px;
   margin-bottom: -0.5rem;
   margin-left: 0;
+}
+
+.nav-gap:hover {
+  background: #47af5b;
+  border-radius: 5px;
 }
 
 .sidebar-button {
@@ -101,4 +146,6 @@
   font-size: 14px;
   background: #d2d2d2;
   border-radius: 5px;
+  margin-top: 22px;
+  margin-left: -13px;
 }

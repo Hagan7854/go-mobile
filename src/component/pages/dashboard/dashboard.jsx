@@ -48,37 +48,34 @@ export default function Dashboard() {
         </div>
       </div>
       <div>
-        <Sidebar aria-label="Default sidebar example" className="sidebar">
-          <Sidebar.Logo href="#" img="/favicon.svg" imgAlt="Flowbite logo">
-            Flowbite
+        <Sidebar
+          aria-label="Sidebar with logo branding example"
+          className="sidebar"
+        >
+          <Sidebar.Logo
+            href="#"
+            img={prorilePic}
+            imgAlt="Flowbite logo"
+            className="flex nav-gap"
+          >
+            <p className="profile-name">Ken Cann</p>
           </Sidebar.Logo>
           <Sidebar.Items>
             <Sidebar.ItemGroup>
-              <Sidebar.Item href="#" icon={HiChartPie}>
-                Dashboard
+              <Sidebar.Item href="#" icon={HiChartPie} className="nav-gap">
+                <p className="profile-name">My Communtiies</p>
               </Sidebar.Item>
-              <Sidebar.Item
-                href="#"
-                icon={HiViewBoards}
-                label="Pro"
-                labelColor="dark"
-              >
-                Kanban
+              <Sidebar.Item href="#" icon={HiViewBoards} className="nav-gap">
+                <p className="profile-name">Members</p>
               </Sidebar.Item>
-              <Sidebar.Item href="#" icon={HiInbox} label="3">
-                Inbox
+              <Sidebar.Item href="#" icon={HiInbox} className="nav-gap">
+                <p className="profile-name">Messages</p>
               </Sidebar.Item>
-              <Sidebar.Item href="#" icon={HiUser}>
-                Users
+              <Sidebar.Item href="#" icon={HiUser} className="nav-gap">
+                <p className="profile-name">Activities</p>
               </Sidebar.Item>
-              <Sidebar.Item href="#" icon={HiShoppingBag}>
-                Products
-              </Sidebar.Item>
-              <Sidebar.Item href="#" icon={HiArrowSmRight}>
-                Sign In
-              </Sidebar.Item>
-              <Sidebar.Item href="#" icon={HiTable}>
-                Sign Up
+              <Sidebar.Item>
+                <button className="sidebar-button">New Communities</button>
               </Sidebar.Item>
             </Sidebar.ItemGroup>
           </Sidebar.Items>

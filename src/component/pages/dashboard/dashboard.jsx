@@ -10,6 +10,7 @@ import communitiesIcon from "../../landing-page/images/communities.svg";
 import membersIcon from "../../landing-page/images/members.svg";
 import message from "../../landing-page/images/messages.svg";
 import activities from "../../landing-page/images/aechives.svg";
+import running from "../../landing-page/images/outdoor-shot-active-dark-skinned-man-running-morning-has-regular-trainings-dressed-tracksuit-comfortable-sneakers-concentrated-into-distance-sees-finish-far-away.jpg";
 
 export default function Dashboard() {
   return (
@@ -59,30 +60,25 @@ export default function Dashboard() {
             </div>
             <Sidebar.Items>
               <Sidebar.ItemGroup>
-                <a href="#">
-                  <div className="nav-gap">
-                    <img src={communitiesIcon} alt="" />
-                    <p className="sidebar-items">My Communtiies</p>
-                  </div>
-                </a>
-                <a href="##">
-                  <div className="nav-gap">
-                    <img src={membersIcon} alt="" />
-                    <p className="sidebar-items">Members</p>
-                  </div>
-                </a>
-                <a href="#">
-                  <div className="nav-gap">
-                    <img src={message} alt="" />
-                    <p className="sidebar-items">Message</p>
-                  </div>
-                </a>
-                <a href="#">
-                  <div className="nav-gap">
-                    <img src={activities} alt="" />
-                    <p className="sidebar-items">Activities</p>
-                  </div>
-                </a>
+                <div className="nav-gap">
+                  <img src={communitiesIcon} alt="" />
+                  <p className="sidebar-items">My Communtiies</p>
+                </div>
+
+                <div className="nav-gap">
+                  <img src={membersIcon} alt="" />
+                  <p className="sidebar-items">Members</p>
+                </div>
+
+                <div className="nav-gap">
+                  <img src={message} alt="" />
+                  <p className="sidebar-items">Message</p>
+                </div>
+
+                <div className="nav-gap">
+                  <img src={activities} alt="" />
+                  <p className="sidebar-items">Activities</p>
+                </div>
 
                 <Sidebar.Item>
                   <button className="sidebar-button">New Communities</button>
@@ -96,7 +92,7 @@ export default function Dashboard() {
           <div className="main">
             <div className="first-frame">
               <div className="pic">
-                <img src="" alt="picture" />
+                <img src={running} alt="picture" />
               </div>
               <div className="stats">
                 <p>FITNESS</p>

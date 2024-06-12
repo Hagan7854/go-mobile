@@ -146,6 +146,28 @@
   font-size: 14px;
   background: #d2d2d2;
   border-radius: 5px;
-  margin-top: 22px;
-  margin-left: -13px;
+  margin-top: 50px;
+  margin-left: -26px;
+}
+
+.title {
+  margin: 0;
+  color: black;
+}
+
+.first-frame {
+  background: red;
+  width: 269px;
+  height: 253px;
+  border-radius: 20px;
+}
+
+.pic img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.stats p {
+  margin: 0;
+  color: black;
 }

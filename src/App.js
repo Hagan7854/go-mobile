@@ -4,11 +4,11 @@ import Login from "./component/pages/authentication/login/login";
 import Dashboard from "./component/pages/dashboard/dashboard";
 
 function App() {
-  // return (
-  //   <div className="App">
-  //     <LandingPage />
-  //   </div>
-  // );
+  return (
+    <div className="App">
+      <LandingPage />
+    </div>
+  );
 
   // return (
   //   <div className="App">
@@ -16,11 +16,11 @@ function App() {
   //   </div>
   // );
 
-  return (
-    <div className="App">
-      <Dashboard />
-    </div>
-  );
+  // return (
+  //   <div className="App">
+  //     <Dashboard />
+  //   </div>
+  // );
 }
 
 export default App;

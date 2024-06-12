@@ -92,10 +92,18 @@ export default function Dashboard() {
           <div className="main">
             <div className="first-frame">
               <div className="pic">
-                <img src={running} alt="picture" />
+                <img src={running} alt="" />
               </div>
               <div className="stats">
-                <p>FITNESS</p>
+                <h2>FITNESS</h2>
+                <div className="row-comm">
+                  <div className="col-comm">
+                    <h1>Jarul Fitness</h1>
+                  </div>
+                  <div className="col-comm">
+                    <button>OPEN</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

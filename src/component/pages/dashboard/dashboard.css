@@ -125,10 +125,6 @@
   color: #fff;
 }
 
-/* .sidebar-items a:hover {
-  color: #fff;
-} */
-
 .nav-gap {
   display: flex;
   gap: 20px;
@@ -156,9 +152,9 @@
 }
 
 .first-frame {
-  background: red;
-  width: 269px;
-  height: 253px;
+  background: #fff;
+  width: 301px;
+  height: 391px;
   border-radius: 20px;
 }
 
@@ -167,7 +163,35 @@
   border-radius: 20px;
 }
 
-.stats p {
+.stats {
+  padding-top: 9px;
+}
+
+.stats h2 {
   margin: 0;
-  color: black;
+  color: #a9a9a9;
+  font-size: 11px;
+  margin-left: 30px;
+}
+
+.row-comm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.col-comm h1 {
+  font-size: 20px;
+  color: #47af5b;
+  margin: 0;
+}
+
+.col-comm button {
+  width: 86px;
+  height: 28px;
+  border-radius: 15px;
+  background: #47af5b;
+  font-size: 14px;
 }

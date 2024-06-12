@@ -25,11 +25,11 @@ export default function Login() {
           </div>
         </div>
       </div>
-      <div className="signup">
+      {/* <div className="signup">
         <Signup />
-      </div>
+      </div> */}
 
-      {/* <div className="body">
+      <div className="body">
         <div className="welcome-text">
           <h2>Welcome</h2>
           <p>
@@ -75,7 +75,7 @@ export default function Login() {
             <button>Register your account</button>
           </div>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 }

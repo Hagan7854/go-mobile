@@ -3,7 +3,6 @@ import phoneImage from "./images/app-concept.jpg";
 import logoApp from "./images/logo.png";
 import playStoreImage from "./images/PLAYSTORE.png";
 import appStoreImage from "./images/APPLE SOTR.png";
-import Layout from "../pages/Layout";
 import { Outlet, Link } from "react-router-dom";
 
 export default function LandingPage() {

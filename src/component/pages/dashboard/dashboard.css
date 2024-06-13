@@ -74,6 +74,10 @@
   gap: 20px;
 }
 
+.nav-profile-pic img {
+  width: 38px;
+}
+
 .profile-pic img {
   width: 48px;
 }
@@ -159,6 +163,9 @@
 .title {
   margin: 0;
   color: black;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: underline;
 }
 
 .main {
@@ -176,6 +183,7 @@
 
 .pic img {
   width: 100%;
+  height: 226px;
   border-radius: 20px;
 }
 
@@ -319,4 +327,9 @@
   width: 349.45px;
   height: 6.18px;
   background: #d9d9d9;
+}
+
+.pic {
+  background: #d2d2d2;
+  border-radius: 20px;
 }

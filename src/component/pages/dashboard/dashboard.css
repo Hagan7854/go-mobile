@@ -92,6 +92,15 @@
 .frame-1 {
   overflow: hidden;
   height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.frame-1.hidden {
+  transform: translateX(-100%);
 }
 
 .frame-2 {

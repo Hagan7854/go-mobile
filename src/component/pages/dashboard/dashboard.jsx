@@ -149,6 +149,176 @@ export default function Dashboard() {
                 <div className="bar"></div>
               </div>
             </div>
+            <div className="first-frame">
+              <div className="pic">
+                <img src={running} alt="" />
+              </div>
+              <div className="stats">
+                <h2>FITNESS</h2>
+                <div className="row-comm">
+                  <div className="col-comm">
+                    <h1>Jarul Fitness</h1>
+                  </div>
+                  <div className="col-comm">
+                    <button>OPEN</button>
+                  </div>
+                </div>
+              </div>
+              <div className="second-row">
+                <div className="second-col">
+                  <div className="communityIcon">
+                    <img src={communityIcon} alt="" />
+                  </div>
+                  <div className="members">
+                    <p>47</p>
+                    <p>Members</p>
+                  </div>
+                </div>
+                <div className=" duration">
+                  <img src={clockIcon} alt="" />
+                  <p>1 years old</p>
+                </div>
+              </div>
+              <div className="rating">
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+              </div>
+              <div className="upcoming-event">
+                <h1>UPCOMING EVENT</h1>
+              </div>
+              <div className="last-row">
+                <div className="date">
+                  <p>2024.05.27</p>
+                </div>
+                <div className="sessions">
+                  <p>Physio</p>
+                  <p>Session</p>
+                  <p>Lamba Court</p>
+                  <p>Spintex</p>
+                </div>
+              </div>
+              <div className="bar-wrapper">
+                <div className="bar"></div>
+              </div>
+            </div>
+            <div className="first-frame">
+              <div className="pic">
+                <img src={running} alt="" />
+              </div>
+              <div className="stats">
+                <h2>FITNESS</h2>
+                <div className="row-comm">
+                  <div className="col-comm">
+                    <h1>Jarul Fitness</h1>
+                  </div>
+                  <div className="col-comm">
+                    <button>OPEN</button>
+                  </div>
+                </div>
+              </div>
+              <div className="second-row">
+                <div className="second-col">
+                  <div className="communityIcon">
+                    <img src={communityIcon} alt="" />
+                  </div>
+                  <div className="members">
+                    <p>47</p>
+                    <p>Members</p>
+                  </div>
+                </div>
+                <div className=" duration">
+                  <img src={clockIcon} alt="" />
+                  <p>
+                    <span>1</span> years old
+                  </p>
+                </div>
+              </div>
+              <div className="rating">
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+              </div>
+              <div className="upcoming-event">
+                <h1>UPCOMING EVENT</h1>
+              </div>
+              <div className="last-row">
+                <div className="date">
+                  <p>2024.05.27</p>
+                </div>
+                <div className="sessions">
+                  <p>Physio</p>
+                  <p>Session</p>
+                  <p>Lamba Court</p>
+                  <p>Spintex</p>
+                </div>
+              </div>
+              <div className="bar-wrapper">
+                <div className="bar"></div>
+              </div>
+            </div>
+            <div className="first-frame">
+              <div className="pic">
+                <img src={running} alt="" />
+              </div>
+              <div className="stats">
+                <h2>FITNESS</h2>
+                <div className="row-comm">
+                  <div className="col-comm">
+                    <h1>Jarul Fitness</h1>
+                  </div>
+                  <div className="col-comm">
+                    <button>OPEN</button>
+                  </div>
+                </div>
+              </div>
+              <div className="second-row">
+                <div className="second-col">
+                  <div className="communityIcon">
+                    <img src={communityIcon} alt="" />
+                  </div>
+                  <div className="members">
+                    <p>47</p>
+                    <p>Members</p>
+                  </div>
+                </div>
+                <div className=" duration">
+                  <img src={clockIcon} alt="" />
+                  <p>1 years old</p>
+                </div>
+              </div>
+              <div className="rating">
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+                <img src={StarIcon} alt="" />
+              </div>
+              <div className="upcoming-event">
+                <h1>UPCOMING EVENT</h1>
+              </div>
+              <div className="last-row">
+                <div className="date">
+                  <p>2024.05.27</p>
+                </div>
+                <div className="sessions">
+                  <p>Physio</p>
+                  <p>Session</p>
+                  <p>Lamba Court</p>
+                  <p>Spintex</p>
+                </div>
+              </div>
+              <div className="bar-wrapper">
+                <div className="bar"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

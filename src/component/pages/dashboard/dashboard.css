@@ -1,6 +1,8 @@
 .dashboard {
   background: #f8f8f8;
   width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .dashboard-header {
@@ -78,12 +80,20 @@
 
 .content {
   display: flex;
+  /* flex-wrap: wrap; */
   gap: 10px;
+  /* overflow: hidden; */
 }
 
-/* .frame-2 {
-  margin: 0;
-} */
+.frame-1 {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.frame-2 {
+  overflow: scroll;
+  height: 100vh;
+}
 
 .sidebar {
   background: #fff;
@@ -151,10 +161,16 @@
   color: black;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 10px;
+}
+
 .first-frame {
   background: #fff;
   width: 337px;
-  height: 474px;
+  height: 491px;
   border-radius: 20px;
 }
 
@@ -185,6 +201,7 @@
 .col-comm h1 {
   font-size: 20px;
   color: #47af5b;
+  font-style: normal;
   margin: 0;
 }
 
@@ -238,6 +255,11 @@
   margin: 0;
 }
 
+.duration p span {
+  color: black;
+  font-size: 14px;
+}
+
 .rating {
   display: flex;
   justify-content: center;
@@ -255,6 +277,7 @@
 
 .upcoming-event h1 {
   color: black;
+  font-style: normal;
   font-size: 16px;
   text-align: left;
 }

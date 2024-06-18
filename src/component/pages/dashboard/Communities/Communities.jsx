@@ -4,13 +4,19 @@ import communityIcon from "../../../landing-page/images/communityIcon.svg";
 import clockIcon from "../../../landing-page/images/clock.svg";
 import StarIcon from "../../../landing-page/images/193-1934674_star-symbol-text-star-icon-transparent-background.webp";
 import addCommunityIcon from "../../../landing-page/images/addCom.svg";
-import { Link, Outlet } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Communities() {
+  const navigate = useNavigate();
+
+  const handleOpenClick = () => {
+    navigate("/dashboard/community", { replace: true });
+  };
+
   return (
     <div className="communities">
-      <Outlet />
       <p className="title">My communities</p>
+
       <div className="main">
         <div className="first-frame">
           <div className="pic">
@@ -23,9 +29,7 @@ export default function Communities() {
                 <h1>Jarul Fitness</h1>
               </div>
               <div className="col-comm">
-                <Link to="community">
-                  <button>OPEN</button>
-                </Link>
+                <button onClick={handleOpenClick}>OPEN</button>
               </div>
             </div>
           </div>

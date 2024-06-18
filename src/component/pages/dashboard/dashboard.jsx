@@ -7,14 +7,49 @@ import notification from "../authentication/login/image/bell.svg";
 import padlockIcon from "../authentication/login/image/padlock.svg";
 import prorilePic from "../authentication/login/image/profile-pic.svg";
 import { Sidebar } from "flowbite-react";
-import communitiesIcon from "../../landing-page/images/communities.svg";
-import membersIcon from "../../landing-page/images/members.svg";
 import message from "../../landing-page/images/messages.svg";
 import activities from "../../landing-page/images/activities.svg";
 import { Link, Outlet } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUsersLine,
+  faUser,
+  faMessage,
+  faCalendarCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Dashboard() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+  const [hoverCommunities, setHoverCommunities] = useState(false);
+  const [hoverMember, setHoverMember] = useState(false);
+  const [hoverMessage, setHoverMessage] = useState(false);
+  const [hoverActivities, setHoverActivies] = useState(false);
+
+  const styleCommunities = {
+    backgroundColor: hoverCommunities ? "#47af5b" : "#fff",
+    color: hoverCommunities ? "white" : "#47af5b",
+    fill: hoverCommunities ? "white" : "#47af5b",
+    borderRadius: hoverCommunities ? "10px" : "",
+  };
+
+  const styleMember = {
+    backgroundColor: hoverMember ? "#47af5b" : "#fff",
+    color: hoverMember ? "white" : "#47af5b",
+    fill: hoverMember ? "white" : "#47af5b",
+    borderRadius: hoverMember ? "10px" : "",
+  };
+  const styleMessage = {
+    backgroundColor: hoverMessage ? "#47af5b" : "#fff",
+    color: hoverMessage ? "white" : "#47af5b",
+    fill: hoverMessage ? "white" : "#47af5b",
+    borderRadius: hoverMessage ? "10px" : "",
+  };
+  const styleActivities = {
+    backgroundColor: hoverActivities ? "#47af5b" : "#fff",
+    color: hoverActivities ? "white" : "#47af5b",
+    fill: hoverActivities ? "white" : "#47af5b",
+    borderRadius: hoverActivities ? "10px" : "",
+  };
 
   const toggleSidebar = () => {
     setIsSidebarVisible(!isSidebarVisible);
@@ -68,24 +103,74 @@ export default function Dashboard() {
             <Sidebar.Items>
               <Sidebar.ItemGroup>
                 <Link to="communities">
-                  <div className="nav-gap">
-                    <img src={communitiesIcon} alt="" />
-                    <p className="sidebar-items">My Communities</p>
+                  <div
+                    className="nav-gap"
+                    style={styleCommunities}
+                    onMouseOver={() => setHoverCommunities(true)}
+                    onMouseOut={() => setHoverCommunities(false)}
+                  >
+                    <FontAwesomeIcon icon={faUsersLine} />
+                    <p
+                      style={styleCommunities}
+                      onMouseOver={() => setHoverCommunities(true)}
+                      onMouseOut={() => setHoverCommunities(false)}
+                      className="sidebar-items"
+                    >
+                      My Communities
+                    </p>
                   </div>
                 </Link>
-                <div className="nav-gap">
-                  <img src={membersIcon} alt="" />
-                  <p className="sidebar-items">Members</p>
+                <div
+                  className="nav-gap"
+                  style={styleMember}
+                  onMouseOver={() => setHoverMember(true)}
+                  onMouseOut={() => setHoverMember(false)}
+                >
+                  <FontAwesomeIcon icon={faUser} />
+
+                  <p
+                    style={styleMember}
+                    onMouseOver={() => setHoverMember(true)}
+                    onMouseOut={() => setHoverMember(false)}
+                    className="sidebar-items"
+                  >
+                    Members
+                  </p>
                 </div>
 
-                <div className="nav-gap">
-                  <img src={message} alt="" />
-                  <p className="sidebar-items">Message</p>
+                <div
+                  className="nav-gap"
+                  style={styleMessage}
+                  onMouseOver={() => setHoverMessage(true)}
+                  onMouseOut={() => setHoverMessage(false)}
+                >
+                  <FontAwesomeIcon icon={faMessage} />
+                  <p
+                    style={styleMessage}
+                    onMouseOver={() => setHoverMessage(true)}
+                    onMouseOut={() => setHoverMessage(false)}
+                    className="sidebar-items"
+                  >
+                    Message
+                  </p>
                 </div>
 
-                <div className="nav-gap">
-                  <img src={activities} alt="" />
-                  <p className="sidebar-items">Activities</p>
+                <div
+                  className="nav-gap"
+                  style={styleActivities}
+                  onMouseOver={() => setHoverActivies(true)}
+                  onMouseOut={() => setHoverActivies(false)}
+                >
+                  <FontAwesomeIcon icon={faCalendarCheck} />
+
+                  <p
+                    style={styleActivities}
+                    onMouseOver={() => setHoverActivies(true)}
+                    onMouseOut={() => setHoverActivies(false)}
+                    className="sidebar-items"
+                  >
+                    Activities
+                  </p>
                 </div>
 
                 <Sidebar.Item>

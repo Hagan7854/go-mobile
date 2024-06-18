@@ -137,11 +137,9 @@
 
 .sidebar-items {
   margin: 0;
-}
-
-.sidebar-items {
   color: #47af5b;
   font-size: 14px;
+  line-height: normal;
 }
 
 .hover .sidebar-items:hover {
@@ -150,15 +148,16 @@
 
 .nav-gap {
   display: flex;
-  gap: 20px;
-  margin-bottom: -0.5rem;
+  align-items: center;
+  gap: 11px;
   margin-left: 0;
+  padding: 12px;
 }
 
-.nav-gap:hover {
+/* .nav-gap:hover {
   background: #47af5b;
   border-radius: 5px;
-}
+} */
 
 .sidebar-button {
   width: 173px;

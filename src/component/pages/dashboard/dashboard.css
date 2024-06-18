@@ -154,11 +154,6 @@
   padding: 12px;
 }
 
-/* .nav-gap:hover {
-  background: #47af5b;
-  border-radius: 5px;
-} */
-
 .sidebar-button {
   width: 173px;
   font-size: 14px;
@@ -231,6 +226,12 @@
   font-weight: bold;
 }
 
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
 .second-row {
   display: flex;
   justify-content: space-between;
@@ -249,7 +250,7 @@
 .members {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 21px;
 }
 
 .members p {
@@ -257,11 +258,12 @@
   font-size: 14px;
   text-align: left;
   margin-left: 20px;
-  margin-top: -38px;
+  line-height: normal;
 }
 
 .duration {
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 2px;
 }
@@ -269,8 +271,8 @@
 .duration p {
   color: #d9d9d9;
   font-size: 14px;
+  line-height: normal;
   margin: 0;
-  margin-top: -32px;
 }
 
 .duration p span {
@@ -280,7 +282,8 @@
 
 .rating {
   display: flex;
-  justify-content: center;
+  margin-bottom: 28px;
+  padding: 0 20px;
 }
 
 .rating img {
@@ -288,9 +291,7 @@
 }
 
 .upcoming-event {
-  margin-top: 20px;
   padding-left: 20px;
-  height: 0;
 }
 
 .upcoming-event h1 {
@@ -298,6 +299,7 @@
   font-style: normal;
   font-size: 16px;
   text-align: left;
+  line-height: normal;
 }
 
 .last-row {
@@ -305,7 +307,6 @@
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 48px;
 }
 
 .date p {

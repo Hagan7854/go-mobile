@@ -7,8 +7,6 @@ import notification from "../authentication/login/image/bell.svg";
 import padlockIcon from "../authentication/login/image/padlock.svg";
 import prorilePic from "../authentication/login/image/profile-pic.svg";
 import { Sidebar } from "flowbite-react";
-import message from "../../landing-page/images/messages.svg";
-import activities from "../../landing-page/images/activities.svg";
 import { Link, Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

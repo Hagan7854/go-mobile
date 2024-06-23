@@ -172,7 +172,10 @@ export default function Dashboard() {
                 </div>
 
                 <Sidebar.Item>
-                  <button className="sidebar-button">New Communities</button>
+                  <button className="sidebar-button">
+                    <FontAwesomeIcon icon={faUsersLine} />
+                    <p>New Communities</p>
+                  </button>
                 </Sidebar.Item>
               </Sidebar.ItemGroup>
             </Sidebar.Items>

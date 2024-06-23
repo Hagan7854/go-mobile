@@ -16,7 +16,6 @@ export default function Communities() {
   return (
     <div className="communities">
       <p className="title">My communities</p>
-
       <div className="main">
         <div className="first-frame">
           <div className="pic">

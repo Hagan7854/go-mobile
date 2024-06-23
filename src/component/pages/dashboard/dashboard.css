@@ -83,16 +83,16 @@
 }
 
 .content {
+  width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 10px;
-  /* overflow: hidden; */
 }
 
 .frame-1 {
   overflow: hidden;
   height: 100vh;
-  transition: all 0.3s ease;
+  width: 28%;
+  transition: all 0.9s ease;
 }
 
 .hidden {
@@ -104,7 +104,8 @@
 }
 
 .frame-2 {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -119,7 +120,9 @@
 }
 
 .profile-txt {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .profile-name {
@@ -131,8 +134,7 @@
 .sub-profile-name {
   color: black;
   font-size: 8px;
-  margin: 0;
-  margin-top: -26px;
+  line-height: normal;
 }
 
 .sidebar-items {
@@ -161,6 +163,17 @@
   border-radius: 5px;
   margin-top: 50px;
   margin-left: -26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-button p {
+  width: 173px;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
 }
 
 .title {
@@ -172,16 +185,19 @@
 }
 
 .main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
-  gap: 10px;
+  display: flex;
+  height: 101%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 109%;
 }
 
 .first-frame {
   background: #fff;
-  width: 337px;
+  width: 303px;
   height: 491px;
   border-radius: 20px;
+  margin: 15px 5px;
 }
 
 .pic img {

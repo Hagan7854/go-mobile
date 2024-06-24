@@ -6,7 +6,7 @@
   border-radius: 21px;
   width: 115px;
   height: 14px;
-  background: red;
+  background: #515151;
   margin-right: 10px;
   color: white;
 }
@@ -31,19 +31,22 @@
 
 .community-container {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .community-widget {
   background: #fff;
   display: flex;
-  width: 568px;
-  height: 149px;
+  width: 636px;
+  height: 170px;
   border-radius: 20px;
 }
 
 .community-image {
   width: 35%;
-  height: 149px;
+  height: 100%;
 }
 
 .community-image img {
@@ -55,7 +58,7 @@
 
 .community-text {
   width: 65%;
-  padding: 0 19px;
+  padding: 15px 19px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,6 +71,16 @@
   margin: 0;
 }
 
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-text {
+  display: flex;
+  gap: 10px;
+}
+
 .first-text p {
   font-size: 14px;
   color: black;
@@ -77,6 +90,7 @@
 .green-text {
   display: flex;
   justify-content: space-between;
+  line-height: 17px;
 }
 
 h3 {
@@ -94,13 +108,21 @@ h3 {
   align-items: end;
 }
 
+.read-more p {
+  color: black;
+  font-size: 9px;
+  text-align: left;
+  line-height: 12px;
+  margin: 0;
+}
+
 .join {
   background: #2c99e8;
   color: #fff;
   font-size: 11px;
   font-weight: bold;
   height: 20px;
-  padding: 15px 26px;
+  padding: 15px 47px;
   border-radius: 26px;
   display: flex;
   justify-content: center;
